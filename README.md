@@ -7,4 +7,6 @@ aozora-scraper
 ./scrape_all_a_url.py
 mv stories_* stories/
 ./get_actual_story.py > ./stories_links_logs
+cat ./stories_links_logs | wc -l
+./print_stories.py | wc -l
 ```
